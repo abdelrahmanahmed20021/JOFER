@@ -1,6 +1,6 @@
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
+
 import axios from "axios";
-import Constants from "expo-constants";
 
 export const useFetch = (endpoint, params) => {
   const [data, setData] = useState();
